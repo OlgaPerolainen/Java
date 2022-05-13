@@ -1,0 +1,5 @@
+package Lab2.Ex2;
+
+public enum Type {
+    FROZEN_YOGURT, SORBET, SHERBET, SOFT_SERVE, GELATO, ESKIMO_PIE
+}

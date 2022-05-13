@@ -1,0 +1,5 @@
+package Lab2.Ex2;
+
+public enum Flavor {
+    BERRY, VANILLA, CHOCOLATE, MINT, FRUIT, CARAMEL, PISTACHIO, CREME_BRULEE
+}
