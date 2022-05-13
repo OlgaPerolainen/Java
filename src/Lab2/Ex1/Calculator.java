@@ -2,54 +2,54 @@ package Lab2.Ex1;
 
 public class Calculator {
     //      Addition methods:
-    public int add(int a, int b) {
-        return a + b;
+    public int add(int firstNumber, int secondNumber) {
+        return firstNumber + secondNumber;
     }
 
-    public long add(long a, long b) {
-        return a + b;
+    public long add(long firstNumber, long secondNumber) {
+        return firstNumber + secondNumber;
     }
 
-    public double add(double a, double b) {
-        return a + b;
+    public double add(double firstNumber, double secondNumber) {
+        return firstNumber + secondNumber;
     }
 
     //    Distraction methods:
-    public int distract(int a, int b) {
-        return a - b;
+    public int distract(int firstNumber, int secondNumber) {
+        return firstNumber - secondNumber;
     }
 
-    public long distract(long a, long b) {
-        return a - b;
+    public long distract(long firstNumber, long secondNumber) {
+        return firstNumber - secondNumber;
     }
 
-    public double distract(double a, double b) {
-        return a - b;
+    public double distract(double firstNumber, double secondNumber) {
+        return firstNumber - secondNumber;
     }
 
     //    Multiplication methods:
-    public int multiply(int a, int b) {
-        return a * b;
+    public int multiply(int firstNumber, int secondNumber) {
+        return firstNumber * secondNumber;
     }
 
-    public long multiply(long a, long b) {
-        return a * b;
+    public long multiply(long firstNumber, long secondNumber) {
+        return firstNumber * secondNumber;
     }
 
-    public double multiply(double a, double b) {
-        return a * b;
+    public double multiply(double firstNumber, double secondNumber) {
+        return firstNumber * secondNumber;
     }
 
     //    Division methods:
-    public int divide(int a, int b) {
-        return a / b;
+    public int divide(int firstNumber, int secondNumber) {
+        return firstNumber / secondNumber;
     }
 
-    public long divide(long a, long b) {
-        return a / b;
+    public long divide(long firstNumber, long secondNumber) {
+        return firstNumber / secondNumber;
     }
 
-    public double divide(double a, double b) {
-        return a / b;
+    public double divide(double firstNumber, double secondNumber) {
+        return firstNumber / secondNumber;
     }
 }
