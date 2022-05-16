@@ -41,14 +41,12 @@ public class Calculator {
     }
 
     //    Division methods:
-    public int divide(int firstNumber, int secondNumber) {
-        return firstNumber / secondNumber;
+    public double divide(int firstNumber, int secondNumber){
+        return (double)firstNumber / secondNumber;
     }
-
-    public long divide(long firstNumber, long secondNumber) {
-        return firstNumber / secondNumber;
+    public double divide(long firstNumber, long secondNumber) {
+        return (double)firstNumber/ secondNumber;
     }
-
     public double divide(double firstNumber, double secondNumber) {
         return firstNumber / secondNumber;
     }
