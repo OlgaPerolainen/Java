@@ -34,5 +34,6 @@ public class Main {
         System.out.println(calculator.divide(1000000000000000L, 9.0));
         System.out.println(calculator.divide(4, 5));
         System.out.println(calculator.divide(5, 4));
+        System.out.println(Math.round(calculator.divide(5, 1)));
     }
 }
