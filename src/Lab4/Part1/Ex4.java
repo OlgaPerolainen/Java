@@ -7,18 +7,23 @@ public class Ex4 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Введите первое число: ");
-        int firstNumber = scanner.nextInt();
+        int firstAnswer = scanner.nextInt();
 
         System.out.print("Введите второе число: ");
-        int secondNumber = scanner.nextInt();
+        int secondAnswer = scanner.nextInt();
 
         System.out.print("Введите третье число: ");
-        int thirdNumber = scanner.nextInt();
+        int thirdAnswer = scanner.nextInt();
 
+        boolean equals = checkBigger(firstAnswer, secondAnswer, thirdAnswer);
+        System.out.print("Результат: " + equals);
+
+    }
+    public static boolean checkBigger(int firstNumber, int secondNumber, int thirdNumber) {
         boolean result = false;
-        if (secondNumber > firstNumber && thirdNumber > secondNumber) {
+        if(secondNumber > firstNumber && thirdNumber > secondNumber){
             result = true;
         }
-        System.out.print("Результат: " + result);
+        return result;
     }
 }
