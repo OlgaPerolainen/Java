@@ -19,9 +19,10 @@ public class Ex3 {
         boolean equals = checkFirstPlusSecondEqualsThird(firstAnswer, secondAnswer, thirdAnswer);
         System.out.print("Результат: " + equals);
     }
+
     public static boolean checkFirstPlusSecondEqualsThird(int firstNumber, int secondNumber, int thirdNumber) {
         boolean result = false;
-        if(firstNumber + secondNumber == thirdNumber){
+        if (firstNumber + secondNumber == thirdNumber) {
             result = true;
         }
         return result;

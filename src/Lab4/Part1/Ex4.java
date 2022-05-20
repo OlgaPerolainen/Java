@@ -19,9 +19,10 @@ public class Ex4 {
         System.out.print("Результат: " + equals);
 
     }
+
     public static boolean checkBigger(int firstNumber, int secondNumber, int thirdNumber) {
         boolean result = false;
-        if(secondNumber > firstNumber && thirdNumber > secondNumber){
+        if (secondNumber > firstNumber && thirdNumber > secondNumber) {
             result = true;
         }
         return result;
