@@ -24,8 +24,7 @@ public class StringMethods {
 
     // Ex3
     public static String swapSwearWord(String text, String swearWord, String censorWord) {
-        text = text.toLowerCase().replaceAll(swearWord, censorWord);
-        return text;
+        return text.toLowerCase().replaceAll(swearWord, censorWord);
     }
 
     // Ex4
