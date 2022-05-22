@@ -19,8 +19,7 @@ public class StringMethods {
 
     // Ex2
     public static boolean isPalindrome(String word) {
-        StringBuilder wordForReverse = new StringBuilder(word);
-        return word.equalsIgnoreCase(wordForReverse.reverse().toString());
+        return word.equalsIgnoreCase(new StringBuilder(word).reverse().toString());
     }
 
     // Ex3
