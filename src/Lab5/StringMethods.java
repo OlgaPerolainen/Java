@@ -2,6 +2,7 @@ package Lab5;
 
 public class StringMethods {
 
+    // Ex1
     public static String findLongestWord(String text) {
         String[] line = text.split(" ");
 
@@ -16,6 +17,7 @@ public class StringMethods {
         return longestWord;
     }
 
+    // Ex2
     public static boolean isPalindrome(String word) {
         boolean flag = true;
         for (int i = 0; i < word.length() / 2; i++) {
@@ -27,11 +29,13 @@ public class StringMethods {
         return flag;
     }
 
+    // Ex3
     public static String swapSwearWord(String text, String swearWord, String censorWord) {
         text = text.toLowerCase().replaceAll(swearWord, censorWord);
         return text;
     }
 
+    // Ex4
     public static int inclusionAmount(String sentence, String inclusion) {
         int inclusionNumber;
         int sentenceLength = sentence.length();
@@ -42,6 +46,7 @@ public class StringMethods {
         return inclusionNumber;
     }
 
+    // Ex5
     public static String reverseWords(String sentence) {
         StringBuilder resultSentence = new StringBuilder();
         String[] sentenceArray = sentence.split(" ");
