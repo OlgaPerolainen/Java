@@ -9,7 +9,7 @@ public class Main {
         System.out.println(StringMethods.findLongestWord(text));
 
         // Exercise 2. Check palindrome
-        String word = "saippuakivikauppias";
+        String word = "Топот";
         boolean result = StringMethods.isPalindrome(word);
         System.out.println(result);
 
