@@ -29,13 +29,11 @@ public class StringMethods {
 
     // Ex4
     public static int inclusionAmount(String sentence, String inclusion) {
-        int inclusionNumber;
         int sentenceLength = sentence.length();
         int inclusionLength = inclusion.length();
         int newSentenceLength = sentence.replaceAll(inclusion, "").length();
 
-        inclusionNumber = (sentenceLength - newSentenceLength) / inclusionLength;
-        return inclusionNumber;
+        return (sentenceLength - newSentenceLength) / inclusionLength;
     }
 
     // Ex5
