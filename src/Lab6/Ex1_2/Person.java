@@ -1,6 +1,6 @@
 package Lab6.Ex1_2;
 
-abstract class Person {
+abstract class Person implements WelcomeMessage {
     private String firstName;
     private String lastName;
 

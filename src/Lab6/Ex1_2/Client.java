@@ -17,4 +17,14 @@ public class Client extends Person {
         System.out.println("Фамилия: " + super.getLastName());
         System.out.println("Имя: " + super.getFirstName());
     }
+
+    @Override
+    public void Welcome() {
+        System.out.println("Добро пожаловать в наш банк!");
+    }
+
+    @Override
+    public void GoodBye() {
+        System.out.println("Всего доброго!");
+    }
 }

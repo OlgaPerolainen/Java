@@ -16,4 +16,14 @@ public class Clerk extends Person {
         System.out.println("Фамилия: " + super.getLastName());
         System.out.println("Имя: " + super.getFirstName());
     }
+
+    @Override
+    public void Welcome() {
+        System.out.println("Хорошего рабочего дня!");
+    }
+
+    @Override
+    public void GoodBye() {
+        System.out.println("Успехов!");
+    }
 }
