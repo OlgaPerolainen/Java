@@ -19,12 +19,12 @@ public class Client extends Person {
     }
 
     @Override
-    public void Welcome() {
+    public void welcome() {
         System.out.println("Добро пожаловать в наш банк!");
     }
 
     @Override
-    public void GoodBye() {
+    public void goodBye() {
         System.out.println("Всего доброго!");
     }
 }

@@ -1,8 +1,8 @@
 package Lab6.Ex3;
 
 public class Truck extends Car{
-    public int wheelQuantity;
-    public double maxWeight;
+    private int wheelQuantity;
+    private double maxWeight;
 
     public void newWheels(int newWheelQuantity){
         this.wheelQuantity = newWheelQuantity;

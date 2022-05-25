@@ -3,13 +3,13 @@ package Lab6.Ex1_2;
 public class Main {
     public static void main(String[] args) {
         Client client = new Client("Иван", "Иванов", "Сбербанк");
-        client.Welcome();
+        client.welcome();
         client.getInfo();
-        client.GoodBye();
+        client.goodBye();
 
         Person clerk = new Clerk("Петр", "Петров", "ВТБ");
-        clerk.Welcome();
+        clerk.welcome();
         clerk.getInfo();
-        clerk.GoodBye();
+        clerk.goodBye();
     }
 }

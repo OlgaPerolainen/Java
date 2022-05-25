@@ -18,12 +18,12 @@ public class Clerk extends Person {
     }
 
     @Override
-    public void Welcome() {
+    public void welcome() {
         System.out.println("Хорошего рабочего дня!");
     }
 
     @Override
-    public void GoodBye() {
+    public void goodBye() {
         System.out.println("Успехов!");
     }
 }
