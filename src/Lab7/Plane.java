@@ -1,15 +1,15 @@
 package Lab7;
 
 public class Plane {
-    private final Wing wing = new Wing(45.5);
-    private final Wing wing2 = new Wing(46);
+    private final Wing leftWing = new Wing(45.5);
+    private final Wing rightWing = new Wing(46);
 
-    public Wing getWing() {
-        return wing;
+    public Wing getLeftWing() {
+        return leftWing;
     }
 
-    public Wing getWing2() {
-        return wing2;
+    public Wing getRightWing() {
+        return rightWing;
     }
 
     static class Wing {
