@@ -7,6 +7,6 @@ public class ChildNumber extends Number {
     }
 
     public void showNumber() {
-        System.out.println(super.number);
+        System.out.println(super.getNumber());
     }
 }
